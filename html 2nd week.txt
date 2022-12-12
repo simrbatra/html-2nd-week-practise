@@ -1,0 +1,183 @@
+<!--meta tag--> 
+<html lang ="en" >
+<head>
+    <meta charset = "UFT-8">
+    <meta name= "viewpoint" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="harshit">
+    <meta name="description" content="this is metatag tutorial">
+    <meta name="keywords" content="lesson, tutorial, html tutorial">
+
+    <title>Metatags Lesson</title>
+</head>
+<body>
+</body>
+</html>
+
+<!--CSS selectors-->
+<head>
+    <title>CSS Selectors</title>
+</head>
+<body>
+    <div id ="main-heading">
+        <h1>Main Heading</h1>
+    </div>
+    <div class="main-section">
+        <h2>Sub Heading</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam nihil porro eveniet? Quaerat, tempore animi neque veniam repellendus vero expedita.</p>
+    </div>
+</body>
+</html>
+
+header{
+    background-color:#f0ebeb;
+}
+section.my-article{
+    background-color:#f2e9e9;
+}
+header.p{
+    color:red;
+}
+li a{
+    color:red;
+}
+section.my-article >h2{
+    color:green;
+}
+ul+p{
+    color:green;
+}
+
+
+<!--attribute selector-->
+<body>
+    <h2>links</h2>
+    <a href="https://google.co.in">Google India</a><br>
+    <a href="https://google.co.uk">Google UK</a><br>
+    <a href="https://flipkart.com">Flipkart</a>
+    
+    <h2>form</h2>
+    <form>
+        <label for ="fname">First name:</label><br>
+        <input types="text" id="fname"><br>
+        <label for ="lname">Last name:</label><br>
+        <input types="text" id="lname"><br>
+    </form>
+</body>
+
+
+<!--CSS Specificity-->
+<html lang="en">
+    <head>
+        <title>specificity</title>
+    </head>
+    <body>
+        <h1 class ="h1class heading" id="h1id">
+            hello
+        </h1>
+    </body>
+</html>
+
+div#container ul.my-songs li{
+    color:brown;
+    background:yellow;
+}
+.favourite{
+    color: yellow;
+    background: brown;
+}
+/*0,0,1,0-->10*/
+
+
+<!--CSS Border-->
+<body>
+    <div class="header">
+        <ul>
+            <li class="home">home</li>
+            <li>about</li>
+        </ul>
+    </div>
+    <h2>main heading</h2>
+    <img src="image.jpg"alt="">
+    <p>this<span>is</span>paragraph</p>
+</body>
+
+h2{
+    border:4px solid red;
+    border-radius:20px;
+    border-style:outset;
+    border-color:red;
+}
+p{
+    border:4px solid green;
+}
+span{
+    border:2px solid black;
+}
+
+
+<!--CSS Box Model-->
+h2{
+    border:20px solid brown;
+    padding:10px;
+    width:500px;
+    margin:20px auto;
+    background:lightblue;
+}
+
+<!--CSS Margin Collapsing-->
+body{
+    font-family:Arial,helvetica,sans-serif;
+}
+.box1, .box2{
+    border:2px solid #444;
+    padding:10px;
+}
+.box1{
+    margin-bottom: 80px;
+}
+.box2{
+    margin-top:70px;
+}
+
+
+<!--Inline vs Block Element-->
+body{
+    font-family:Areial,helvetica;
+    color:#444;
+}
+h1,h2{
+    border:2px solid #222;
+    display:inline;
+}
+h1{
+    margin:100px;
+    padding:100px;
+}
+a{
+    border:2px solid rgb(230,0,0);
+    padding:50px;
+    display=block;
+    margin:50px 10px;
+}
+
+
+<!--Box Sizing-->
+hr{
+    width: 500px;
+    margin-left:0;
+    border:0.5px dashed black;
+}
+.box2{
+    box-sizing:b-box;
+    width:500px;
+    background:lightcoral;
+    border:10px solid red;
+    padding:50px;
+    margin-bottom:10px;
+}
+.box1{
+    width:500px;
+    background:lightcoral;
+    border:10px solid red;
+    padding:50px;
+}
